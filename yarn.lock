@@ -1848,6 +1848,13 @@
     jsonc-parser "3.2.0"
     ora "5.4.1"
 
+"@ngneat/transloco-locale@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@ngneat/transloco-locale/-/transloco-locale-4.1.0.tgz#830dca85204a8cc525478bc00ff5993ddac6d1eb"
+  integrity sha512-xtev6RXEPXh3kJ/xR/aq52z3ZVlv2wCGfc2kT+LQhLsW045zT0e5PJPHjO/xGNmp+T/Z8Axu1h08KwRQUW4Jyg==
+  dependencies:
+    tslib "^2.2.0"
+
 "@ngneat/transloco-utils@3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@ngneat/transloco-utils/-/transloco-utils-3.0.4.tgz#6cc7b686be44e38d2e6e0475849b62ffaf5e69a5"

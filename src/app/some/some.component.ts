@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-some',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./some.component.scss']
 })
 export class SomeComponent {
-
+  date = new Date();
 }

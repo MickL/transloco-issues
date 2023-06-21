@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import {SomeComponent} from './some/some.component';
+import {TranslocoLocaleModule} from '@ngneat/transloco-locale';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,13 @@ import {SomeComponent} from './some/some.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    TranslocoRootModule
+    TranslocoRootModule,
+    TranslocoLocaleModule.forRoot({
+      langToLocaleMapping: {
+        en: 'en-US',
+        de: 'de-DE'
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
